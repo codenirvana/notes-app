@@ -1,0 +1,15 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "CLI notes app",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/codenirvana/notes-app.git",
+    "type": "git"
+  },
+  "author": "Udit Vasu",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^6.5.0"
+  }
+}
