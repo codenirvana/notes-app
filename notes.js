@@ -27,7 +27,7 @@ module.exports = {
   getAll: () => fetch(),
   get: (title) => {
     let notes = fetch();
-    let selection = notes.fill(note => note.title === title);
+    let selection = notes.filter(note => note.title === title);
     return selection[0];
   },
   remove: (title) => {
